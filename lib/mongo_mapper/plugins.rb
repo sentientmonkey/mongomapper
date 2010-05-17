@@ -28,6 +28,7 @@ module MongoMapper
     autoload :Timestamps,     'mongo_mapper/plugins/timestamps'
     autoload :Userstamps,     'mongo_mapper/plugins/userstamps'
     autoload :Validations,    'mongo_mapper/plugins/validations'
+    autoload :QueryLogger,    'mongo_mapper/plugins/query_logger'
   end
 end
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Nunemaker"]
-  s.date = %q{2010-04-30}
+  s.date = %q{2010-05-16}
   s.default_executable = %q{mmconsole}
   s.email = %q{nunemaker@gmail.com}
   s.executables = ["mmconsole"]
@@ -50,6 +50,7 @@ Gem::Specification.new do |s|
      "lib/mongo_mapper/plugins/identity_map.rb",
      "lib/mongo_mapper/plugins/inspect.rb",
      "lib/mongo_mapper/plugins/keys.rb",
+     "lib/mongo_mapper/plugins/keys/key.rb",
      "lib/mongo_mapper/plugins/logger.rb",
      "lib/mongo_mapper/plugins/modifiers.rb",
      "lib/mongo_mapper/plugins/pagination.rb",
